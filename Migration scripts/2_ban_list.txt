@@ -1,0 +1,22 @@
+INSERT INTO `new_forum`.`phpbb_banlist`
+            (`ban_id`,
+             `ban_userid`,
+             `ban_ip`,
+             `ban_email`,
+             `ban_start`,
+             `ban_end`,
+             `ban_exclude`,
+             `ban_reason`,
+             `ban_give_reason`)
+
+SELECT
+  `ban_id`,
+  `ban_userid`,
+  `ban_ip`,
+  `ban_email`,
+  CURRENT_DATE() AS ban_start,
+ 0 		AS ban_end,
+ 0		AS ban_exclude,
+ ''		AS ban_reason,
+ ''		AS ban_give_reason
+FROM `phpbb3`.`phpbb_banlist`;
