@@ -11,7 +11,8 @@ require_once './MigrationConfig.php';
   //$q = "SELECT * FROM ".$dbnameSource.".".$dbPrefixSource."groups";
   
   
-  $q = "SELECT * FROM ".$dbnameSource.".".$dbPrefixSource.$table_name." g WHERE (SELECT COUNT(*) FROM ".$dbnameSource.".".$dbPrefixSource."user_group ug WHERE ug.group_id = g.group_id) >= 1";
+  //$q = "SELECT * FROM ".$dbnameSource.".".$dbPrefixSource.$table_name." g WHERE (SELECT COUNT(*) FROM ".$dbnameSource.".".$dbPrefixSource."user_group ug WHERE ug.group_id = g.group_id) >= 1";
+  $q = "SELECT * FROM ".$dbnameSource.".".$dbPrefixSource.$table_name." g WHERE group_name <> ''";
   //echo $q;
   //return;
   $result = mysql_query($q, $ConnSource);
@@ -19,7 +20,10 @@ require_once './MigrationConfig.php';
 
   while($row = mysql_fetch_array($result))
   {	  
-
+    // тип группы в phpBB3 (4 - Открытая, 0 - По запросу, 1 - Закрытая, 2 - Скрытая, 3 - Предустановленная)
+	// тип группы в phpBB1 (0 = GROUP_OPEN, 1 = GROUP_CLOSED, 2 = GROUP_HIDDEN)
+	$group_type = ($row['group_type'] == 0) ? 4 : $row['group_type'];
+	
     $InsertStatement = "INSERT INTO ".$dbnameDest.".".$dbPrefixDest."groups
             (`group_id`,
              `group_type`,
@@ -43,8 +47,8 @@ require_once './MigrationConfig.php';
              `group_max_recipients`,
              `group_legend`)
  		VALUES(".
-  			($row['group_id'] + groupIdAdditional).",".
-  			$row['group_type'].",".
+  			($row['group_id'] + $groupIdAdditional).",".
+  			$group_type.",".
   			"0,".
   			"0,".
 			"'".$row['group_name']."',".
@@ -68,7 +72,7 @@ require_once './MigrationConfig.php';
   
 	 mysql_query($InsertStatement, $ConnDest);
   
-     //echo "<br>".$InsertStatement."<br>";
+     //echo $InsertStatement."<br>";
   }
   
 
