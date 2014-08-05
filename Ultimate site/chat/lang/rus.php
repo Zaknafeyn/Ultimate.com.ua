@@ -1,0 +1,240 @@
+<?php
+
+#admin.php
+
+$str_admin_refresh = "Обновить";
+$str_admin_nick = "Ник";
+$str_admin_rights = "Права";
+$str_admin_ip = "IP";
+$str_admin_ltime = "ltime";
+$str_admin_bonus = "Бонусы:)";
+$str_admin_useragent = "User agent";
+
+$str_admin_caps_str = "заглавные";
+$str_admin_vowel_str = "гласные";
+$str_admin_consonan_str = "согласные";
+$str_admin_swear_str = "вежливость";
+
+$str_admin_act_str = "Действие";
+$str_admin_act_select = "- выбери -";
+$str_admin_act_kick = "Выкинуть";
+$str_admin_act_ban = "Заблокировать";
+$str_admin_act_caps = "Заглавные";
+$str_admin_act_vowel = "Гласные";
+$str_admin_act_consonan = "Согласные";
+$str_admin_act_swear = "Вежливость";
+$str_admin_act_delmessage = "Удалить сообщения";
+
+$str_admin_reason = "Причина (не обязательно)";
+
+$str_admin_banned = "Заблокированные ники";
+$str_admin_banned_nick = "Ник";
+$str_admin_banned_whom = "Кем";
+$str_admin_banned_when = "Когда";
+
+$str_admin_uban = "Разблокировать";
+
+
+#board.php
+
+$str_board_button_say = "Сказать";
+
+
+#body.php
+
+$str_body_load = "Грузю...";
+
+
+#bottom.php
+
+$str_act_say			= "сказать";
+$str_act_private	= "приват";
+$str_act_ask			= "спрашивает";
+$str_act_send			= "посылает";
+$str_act_think		= "думает, что";
+$str_act_do				= "*действие";
+$str_act_gift			= "подарить";
+$str_act_tea			= "чай";
+$str_act_meet			= "стрелка";
+$str_act_100b			= "100 баксов";
+$str_act_coffee		= "кофе";
+$str_act_song			= "спеть";
+$str_act_naezd		= "наехать";
+$str_act_teeth		= "зубы";
+$str_act_phone		= "позвонить";
+$str_act_ears			= "по ушам";
+
+$str_act_ask_str					= "спрашивает";
+
+$str_act_send_str					= "посылает";
+$str_act_send_str_tail		= "в парк";
+
+$str_act_think_str				= "думает, что";
+
+$str_act_do_str						= "";
+
+$str_act_gift_str_m				= "подарил";
+$str_act_gift_str_w				= "подарила";
+
+$str_act_tea_str_m				= "заварил";
+$str_act_tea_str_w				= "заварила";
+$str_act_tea_str_tail			= "кружечку чайку";
+
+$str_act_coffee_str_m			= "сварил";
+$str_act_coffee_str_w			= "сварила";
+$str_act_coffee_str_tail	= "чашечку кофе";
+
+$str_act_meet_str_m				= "забил";
+$str_act_meet_str_w				= "забила";
+$str_act_meet_str_tail		= "стрелку";
+
+$str_act_100b_str_m				= "дал";
+$str_act_100b_str_w				= "дала";
+$str_act_100b_str_tail		= "100 баксов";
+
+$str_act_song_str_m				= "спел";
+$str_act_song_str_w				= "спела";
+$str_act_song_str_tail		= "песенку";
+
+$str_act_naezd_str_m			= "наехал";
+$str_act_naezd_str_w			= "наехала";
+
+$str_act_teeth_str_m			= "пошел почистить зубы";
+$str_act_teeth_str_w			= "пошла почистить зубы";
+
+$str_act_phone_str_m			= "пошел позвонить";
+$str_act_phone_str_w			= "пошла позвонить";
+
+$str_act_ears_str_m				= "надавал";
+$str_act_ears_str_w				= "надавала";
+$str_act_ears_str_tail		= "по ушам";
+
+$str_bottom_clear				= "Очистить";
+
+$str_bottom_smiles			= "смайлики";
+$str_bottom_refresh			= "обновить";
+$str_bottom_more_smiles	= "смайлики"; // раньше было "еще смайлики" :/
+$str_bottom_settings		= "личные настройки";
+$str_bottom_users				= "пользователи";
+$str_bottom_board				= "доска";
+$str_bottom_admin				= "админка";
+$str_bottom_archive			= "архив";
+
+$str_bottom_button_say	= "сказать";
+$str_bottom_button_exit	= "выход";
+
+
+#c_config.php
+
+$str_say_enter_chat			= "входит в чат";
+$str_say_exit_chat			= "выходит из чата";
+$str_say_disconnected1	= "связь с";
+$str_say_disconnected2	= "разорвалась";
+
+$str_link_to_server_dropped = "Связь с сервером прервана.";
+
+$str_say_happy_birthday = ", поздравляем с Днем Рождения!";
+
+$str_say_cheater = "я-читер!:)";
+
+$str_admin_kick_on				= "выкидывает из чата";
+$str_admin_kick_off				= "";
+$str_admin_ban_on					= "блокирует ник";
+$str_admin_ban_off				= "разблокирует ник";
+$str_admin_caps_on				= "отключает заглавные буквы";
+$str_admin_caps_off				= "включает заглавные буквы";
+$str_admin_vowel_on				= "отключает гласные буквы";
+$str_admin_vowel_off			= "включает гласные буквы";
+$str_admin_consonan_on		= "отключает согласные буквы";
+$str_admin_consonan_off		= "включает согласные буквы";
+$str_admin_swear_on				= "отключает вежливость";
+$str_admin_swear_off			= "включает вежливость";
+$str_admin_delmessage_on	= "удаляет все сообщения";
+$str_admin_delmessage_off	= "";
+
+#empty.php
+$str_empty_flood = "Флуд (многократное повторение)!";
+
+#enter.php
+
+$str_enter_login_error		= "Ошибка логина или пароля.";
+$str_enter_access_denied	= "Вход в чат запрещен.";
+$str_enter_go_back				= "Вернуться на главную страницу чата";
+
+
+#hiddenframe.php
+
+$str_say_whisper = "*шепотом*";
+
+
+#info.php
+
+$str_info_findall = "Найти всех похожих";
+$str_info_findall_descr = "(будут найдены все пользователи, ник которых содержит введенную последовательность символов; оставьте поле пустым, чтобы посмотреть всех пользователей)";
+$str_info_orderby = "Сортировать по полю";
+$str_info_nick = "Ник";
+$str_info_sex = "Ник";
+$str_info_regdate = "Дата регистрации";
+$str_info_lastvisit = "Последний визит";
+$str_info_days = "Дней в чате";
+$str_info_order_desc = "в обратном порядке";
+$str_info_button_find = "Найти";
+
+$str_info_found = "Найдено пользователей";
+$str_info_days2 = "дней&nbsp;в&nbsp;чате";
+$str_info_regdate2 = "Дата&nbsp;регистрации";
+$str_info_lastvisit2 = "Последний&nbsp;визит";
+$str_info_dr2 = "День&nbsp;рождения";
+$str_info_email2 = "E-mail";
+$str_info_icq2 = "ICQ";
+$str_info_city2 = "Город";
+$str_info_about2 = "О&nbsp;себе";
+$str_info_city2 = "Город";
+$str_info_city2 = "Город";
+
+
+#people.php
+
+$str_people_count		= "Сейчас в чате";
+$str_people_status	= "Статус";
+
+
+#user_cnf.php
+
+$str_usr_photo_load_error = "Ошибка загрузки файла";
+$str_usr_photo_incorrect_size = "Недопустимые размеры фотографии!";
+$str_usr_photo_file_too_large = "Файл слишком большой!";
+
+$str_usr_success = "Параметры обновлены успешно!";
+
+$str_usr_settings = "Личные настройки";
+
+$str_usr_refresh = "Выберите интервал (в секундах)<br>между обновлениями главного фрейма";
+$str_usr_nick_color = "Цвет ника";
+$str_usr_mes_color = "Цвет сообщений";
+$str_usr_sex = "Сделайте свой выбор:";
+$str_usr_top2bot = "Новые сообщения";
+$str_usr_top2bot1 = "сверху";
+$str_usr_top2bot2 = "снизу";
+$str_usr_lang = "Язык";
+$str_usr_dr = "Введите дату своего дня рождения в<br>формате дд.мм (например, 31.01, или 07.12)";
+$str_usr_email = "e-mail";
+$str_usr_icq = "ICQ";
+$str_usr_city = "Город";
+$str_usr_bg = "Выделять сообщения, адресованные Вам?";
+$str_usr_bg1 = "Нет";
+$str_usr_bg2 = "Да";
+$str_usr_enter = "Введите строку, отображаемую при входе в чат";
+$str_usr_initst = "Статус при входе в чат";
+$str_usr_about = "Пару(-тройку( десятков)) слов о себе:<br>Теги и смайлы работают:)";
+$str_usr_avatar = "Выберите аватару";
+$str_usr_current_photo = "Текущая фотография";
+$str_usr_del_photo = "удалить";
+$str_usr_upload_photo = "Загрузить фото с диска";
+$str_usr_upload_restr = "Объем файла (jpg, gif, png) не более 50Кб<br>Размеры не более 150x150.";
+
+$str_usr_button_submit = "Обновить личную информацию";
+$str_usr_button_close = "Закрыть";
+
+
+?>

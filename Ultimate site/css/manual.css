@@ -1,0 +1,39 @@
+.imgset
+{
+	background-color: #EBEBEB;
+	padding: 5;
+	border-bottom: 1px solid #AAA;
+}
+
+.contents
+{
+	background-color: #FFF799;
+	padding: 10 10 10 10;
+}
+
+.total
+{
+	background-color: #FDC689;
+	padding: 5 10 0 10;
+}
+
+.exercize
+{
+	padding: 0 10 0 10;
+	margin: 0 10 0 10;
+	border-left: 1px solid #F0F0F0;
+}
+
+.exercize p
+{
+	font-size: 12px;
+}
+
+.mantitle
+{
+	color: #000;
+	font-size: 22px;
+	font-family: Century Gothic;
+	margin: 20 0 0 0;
+	padding: 20 0 0 0;
+}

@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: #444;
+    font-family: Tahoma, Verdana;
+    font-size: 12px;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+table
+{
+	cellspacing: 0;
+	cellpadding: 0;
+	border: 0;
+}
+
+
+
+p, td {
+	font-size: 14px;
+}
+p {
+	line-height: 20px;
+	margin: 0 0 0 0;
+    padding: 15 0 0 0;
+}
+
+h1,h2,h3,h4,h5 {
+	color: #000;
+    font-family: helios cond, arial, sans-serif;
+    font-weight: normal;
+	font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.0em; }
+
+h1 a {color: #000000;}
+
+
+li {
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 15;
+}
+
+a {
+	color: #0097EE;
+}
+a:hover {
+	color: #000;
+}
+
+
+a.hid {
+    color: #444;
+    text-decoration: none;
+}
+a.hid:visited {
+    color:  #444;
+    text-decoration: none;
+}
+a.hid:hover {
+    color:  #000;
+    text-decoration: underline;
+}
+
+
+a.extlink {
+    padding-right: 10px;
+    background-image: url(/img/extlink.png);
+    background-repeat: no-repeat;
+    background-position: right 4px;
+}
+
+
+td.lite {
+    background-color: #F0F0F0;
+}
+td.lite p {
+    padding: 0;
+}
+
+dl {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+}
+dt {
+	padding: 20 0 0 0;
+	font-weight: bold;
+}

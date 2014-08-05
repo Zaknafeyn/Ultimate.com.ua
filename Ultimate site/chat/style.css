@@ -1,0 +1,11 @@
+body{color:black;background-color:#D6F5D6; font-size:11px; font-family: Tahoma; margin-top: 0; margin-bottom: 0; }
+td{font-size:11px; font-family: Tahoma;}
+a{text-decoration: none}
+a:hover{text-decoration: underline; background-color: green; }
+a.lnk {color: black; font-weight: bold;font-family: tahoma;}
+.autor{font-size:10px;color:#9999cc;}
+.inp{background-color:#3333bb; font-size:12px; font-family: Tahoma; border: thin; color:#ffffff; }
+.i{ font-size: 12px; background: #C0DCC0; border: 1px solid black; color: black;}
+.b{ font-size: 12px; background: #C0DCC0; border: thin; color: black; WIDTH: 70px; cursor:hand}
+a.m1{color:#ffffff;}
+a.m1:hover{color:#00ffff;}

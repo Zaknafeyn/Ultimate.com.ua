@@ -1,0 +1,102 @@
+.more, a.more,  A.more:visited		{   font-size : 11px;  color : #417918;  }
+A.more:visited:hover, A.more:hover {  color : #FFffff; text-decoration : none; }
+
+.title, a.title,  A.title:visited		{  font-weight : bold; font-size : 12px;  color : #ffffff;  text-decoration: none;  }
+A.title:visited:hover, A.title:hover {  color : #417918; text-decoration : none; }
+
+.ntitle, a.ntitle,  A.ntitle:visited		{  font-weight : bold; font-size : 15px;  color : #000000;  text-decoration: none;  }
+A.ntitle:visited:hover, A.ntitle:hover {  color : #ffffff; text-decoration : none; }
+
+
+.copy {
+	font: bold 10px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+.copy1 {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+.menu {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+
+.txt, td, p {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+p {
+	text-align: justify;
+}
+.txt_2 {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+.news {
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #ffffff
+}
+
+.btn {
+	background: #7DCF23;
+	color: white;
+}
+textarea, select, option {
+	border: 1px #FFFFFF solid;
+	font: 12px Verdana, Tahoma, Arial;
+	color: #409C27;
+	width: 380px;
+}
+
+input {
+	border: 1px #417918 solid;
+	font: 12px Verdana, Tahoma, Arial;
+	color: #409C27;
+	width: 200px;
+}
+
+a {
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: white;
+}
+
+a.menu {
+	color: white;
+}
+a.menu:hover {
+	color: white;
+	text-decoration: none;
+}
+a.menu:visited {
+	color: white;
+}
+a.menu:active {
+	color: white;
+}
+
+
+.head {
+	background: #409C27;
+}
+.hintClass {
+	border: 1px outset black;
+	background: #FCC980;
+	padding: 2px;
+	font: 10px Verdana, Tahoma, Arial;
+	color: black;
+}
+.header1 {
+	font: bolder 14px Verdana, Arial;
+	color: #ffffff;
+}
+hr {
+	color: #407917;
+}

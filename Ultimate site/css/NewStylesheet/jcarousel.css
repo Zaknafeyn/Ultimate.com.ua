@@ -1,0 +1,126 @@
+/* jcarousel */
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+}
+
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
+
+.jcarousel-skin-ie7 .jcarousel-container {
+    background: #fff;
+    text-align: center;
+}
+
+.jcarousel-skin-ie7 .jcarousel-container-horizontal {
+    width: 158px;
+    padding-bottom: 32px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-clip-horizontal {
+    width: 158px;
+    height: 79px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item {
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    padding: 2px;
+    background-color: #fff;
+    border: none;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item:hover {
+}
+
+.jcarousel-skin-ie7 .jcarousel-item-horizontal {
+    margin: 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item-placeholder {
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-ie7 .jcarousel-next-horizontal {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 14px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url('/photo/next-horizontal0.png') no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-horizontal:hover {
+    background-position: -14px 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-horizontal:active {
+    background-position: -28px 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -42px 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 14px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url('/photo/prev-horizontal0.png') no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal:hover {
+    background-position: -14px 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal:active {
+    background-position: -28px 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -42px 0;
+}

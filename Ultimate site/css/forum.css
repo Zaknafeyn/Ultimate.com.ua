@@ -1,0 +1,48 @@
+.txt, td {  
+	font: 12px Arial, Helvetica, sans-serif; 
+	color: #ffffff
+}
+.txt_2 {  
+	font: 12px Arial, Helvetica, sans-serif; 
+	color: #FFFFFF; 
+	text-align: justify;
+}
+.btn {
+	background: #7DCF23;
+	color: white;	
+}
+input, textarea, select, option {
+	border: 1px #FFFFFF solid;
+	font: 12px Verdana, Tahoma, Arial;
+	color: #409C27;
+	/*width: 380px;*/
+}
+
+a {
+	color: #407917;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: white;
+}
+.head {
+	background: #409C27;
+}
+.hintClass {
+	border: 1px outset black;
+	background: #FCC980;
+	padding: 2px;
+	font: 10px Verdana, Tahoma, Arial;
+	color: black;
+}
+.header1 {
+	font: bolder 14px Verdana, Arial;
+	color: #ffffff;
+}
+hr {
+	color: #407917;
+}

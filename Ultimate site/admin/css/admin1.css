@@ -1,0 +1,207 @@
+body{
+	background-color: white;
+	color: black;
+	font : normal normal normal 12px Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+td{
+	font : normal normal normal 12px Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+th
+{
+	font: normal normal normal 12px Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #409C27;
+	color: White;
+	font-weight: bold;
+}
+textfield, textarea {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.text {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+td.dark
+{
+	background-color: #409C27;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+}
+td.menue
+{
+	background-color: #409C27;
+	color: #000000;
+	text-align: left;
+	font-weight: bold;
+}
+
+td.light{
+	background-color : #7DCF23;
+}
+
+a:hover{
+	color : white;
+}
+
+a:active{
+
+}
+
+a{
+	color : white;
+	font : bold;
+}
+
+.inp{
+	border: 1px #417918 solid;
+	font: 12px Verdana, Tahoma, Arial;
+	color: #409C27;
+}
+
+.inp1{
+	border : none;
+	background-color: #CCCCCC;
+	color: #000000;
+}
+
+
+.w0{
+	width : 25px;
+}
+
+.w1{
+	width : 50px;
+}
+
+.w2{
+	width : 100px;
+}
+
+.w3{
+	width : 100px;
+}
+
+.error{
+	font-weight : bold;
+	color : red;
+}
+
+.red{
+		color : red;
+}
+
+.through{
+	text-decoration : line-through;
+}
+
+.level1{
+	margin-left : 0px;
+}
+
+.level2{
+	margin-left : 20px;
+}
+
+.level3{
+	margin-left : 40px;
+}
+
+.level4{
+	margin-left : 60px;
+}
+
+.level5{
+	margin-left :80px;
+}
+
+.level6{
+	margin-left : 100px;
+}
+
+
+.w1{
+	width : 100px;
+}
+
+.w2{
+		width : 150px;
+}
+
+.w3{
+		width : 200px;
+}
+
+.w4{
+		width : 300px;
+}
+
+.w5{
+		width : 400px;
+}
+h1{
+	font-size:12px;
+	color:black;
+	font-weight:bold;
+	margin: 0px 0px 0px 0px;}
+h2{
+	font-size:16px;
+	color:#FF6666;
+	font-weight:bold;
+	}
+a.h:link{
+	font-size:12px;
+	color:#FF0000;
+	font-weight:bold;}
+a.h:visited{
+	font-size:12px;
+	color:white;
+	font-weight:bold;}
+a.h:hover {
+	font-size:12px;
+	color:#ffffff;
+	font-weight:bold;
+	background-color:orange}
+
+ul{
+	list-style-image:url(images/next.gif);
+	padding:0px 0px 0px 0px ;
+	margin-left:0px;
+
+
+}
+li{padding:0px 0px 10px 0px;
+margin-left:15px}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: white;
+	background-color:orange
+}
+
+a.date {
+font-weight:bold}
+a.white:link {
+	color: White;
+}
+
+
+a.menue:link {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: White;
+	text-align: center;
+	font-size: 12px;
+}
+a.menue:visited {
+		color: white;
+}
+a.menue:hover {
+	color: White;
+}
